@@ -1,18 +1,25 @@
 @import url("../css/reset.css");
 .contents{
-    background-color: #ff11ff20;
+    --background-color: #ff11ff20;
     height: inherit;
     width: 1240px;
     margin-left: auto;
     margin-right: auto;
     
+    
 }
 #header{
     height: 110px;
-    background-color : #10101020;
+    --background-color : #10101020;
     position: sticky;
     top: 0px;
+    border-bottom: #10101010 solid 2px;
+    
 }
+    /* #header>.contents
+    {
+        display: flex;
+    } */
 #body{
     height: 730px;
     background-color: gray;
@@ -46,4 +53,76 @@
     width: 840px;
     height: inherit;
     background-color: violet;
+}
+nav.navbar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    border-bottom: #10101010 solid 1px;
+     justify-content: space-around;
+}
+div.navbar
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+div.navitem
+{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar
+{   --background: lawngreen;
+    display: flex;
+    height: 50px;
+    flex-direction : row;
+   
+  
+    
+    
+}
+.navunder
+{   --background: lawngreen;
+    display: flex;
+    height: 60px;
+    flex-direction : row;
+}
+    .navunder>.navbar:nth-child(1)
+    {   --background: wheat;
+        display: flex;
+        flex-direction : row;
+        width: 400px;
+        justify-content: space-around;
+        
+    }
+    .navunder>.navbar:nth-child(2)
+    {   --background: wheat;
+        display: flex;
+        flex-direction : row;
+        width: 700px;
+        justify-content: space-around;
+    }
+    
+    .navunder>.navbar>div div span:nth-child(2)
+    {   --background: wheat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: green;
+    }
+    
+
+.navitem
+{
+    --background: lightgreen;
+    display: flex;
+    flex-direction : row;
+    height: inherit;
+   
+  
 }
