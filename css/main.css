@@ -1,4 +1,4 @@
-@import url("reset.css");
+@import url("../css/reset.css");
 .contents{
     background-color: #ff11ff20;
     height: inherit;
@@ -10,6 +10,8 @@
 #header{
     height: 110px;
     background-color : #10101020;
+    position: sticky;
+    top: 0px;
 }
 #body{
     height: 730px;
@@ -29,13 +31,11 @@
 }
     #footer>.contents
     {
-        background-color: wheat;
-        height: inherit;
+        background-color: wheat;     
         width: 800px;
-        margin-left: auto;
-        margin-right: auto;
+       
     }
-#aside{
+#figure{
     width: 400px;
     height: inherit;
     background-color: teal;
