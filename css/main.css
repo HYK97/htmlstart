@@ -1,0 +1,49 @@
+@import url("reset.css");
+.contents{
+    background-color: #ff11ff20;
+    height: inherit;
+    width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#header{
+    height: 110px;
+    background-color : #10101020;
+}
+#body{
+    height: 730px;
+    background-color: gray;
+}
+    #body>.contents
+    {
+        display: flex;
+    }
+#visual{
+    height: 270px;
+    background-color: yellow;
+}
+#footer{
+    height: 380px;
+    background-color: red;
+}
+    #footer>.contents
+    {
+        background-color: wheat;
+        height: inherit;
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+#aside{
+    width: 400px;
+    height: inherit;
+    background-color: teal;
+    
+}
+#main
+{
+    width: 840px;
+    height: inherit;
+    background-color: violet;
+}
